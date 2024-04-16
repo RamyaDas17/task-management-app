@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/RamyaDas17/task-management-app/static/css/main.243f6ee7.css",
-    "main.js": "/RamyaDas17/task-management-app/static/js/main.9fbb816d.js",
-    "static/js/453.68693753.chunk.js": "/RamyaDas17/task-management-app/static/js/453.68693753.chunk.js",
-    "static/media/pop_sound.mp3": "/RamyaDas17/task-management-app/static/media/pop_sound.c342449634d5fc6c5d45.mp3",
-    "index.html": "/RamyaDas17/task-management-app/index.html",
-    "main.243f6ee7.css.map": "/RamyaDas17/task-management-app/static/css/main.243f6ee7.css.map",
-    "main.9fbb816d.js.map": "/RamyaDas17/task-management-app/static/js/main.9fbb816d.js.map",
-    "453.68693753.chunk.js.map": "/RamyaDas17/task-management-app/static/js/453.68693753.chunk.js.map"
+    "main.css": "/task-management-app/static/css/main.243f6ee7.css",
+    "main.js": "/task-management-app/static/js/main.d362c36e.js",
+    "static/js/453.68693753.chunk.js": "/task-management-app/static/js/453.68693753.chunk.js",
+    "static/media/pop_sound.mp3": "/task-management-app/static/media/pop_sound.c342449634d5fc6c5d45.mp3",
+    "index.html": "/task-management-app/index.html",
+    "main.243f6ee7.css.map": "/task-management-app/static/css/main.243f6ee7.css.map",
+    "main.d362c36e.js.map": "/task-management-app/static/js/main.d362c36e.js.map",
+    "453.68693753.chunk.js.map": "/task-management-app/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.243f6ee7.css",
-    "static/js/main.9fbb816d.js"
+    "static/js/main.d362c36e.js"
   ]
 }
