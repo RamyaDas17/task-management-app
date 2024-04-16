@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.home-container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+    position: absolute;
+}
+
+.todo-app{
+  width: 100%;
+    max-width: 600px;
+    height: 770px;
+    background: #fff;
+    margin :50px auto;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.modal{
+  border-radius: 40px;
+}
+
+.input-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.add-icon{
+  position: relative;
+  left: 480px;
+    bottom: 0px;
+    background: rgb(0, 255, 255);
+    border-radius: 70px;
+    animation: pulse 3s linear infinite;
+}
+
+@keyframes pulse{
+    0%{
+      box-shadow: 0 0 0 0 rgb(0, 255, 255, .7), 0 0 0 50px rgb(0, 255, 255, .7)
+    }
+    40%{
+        box-shadow: 0 0 0 50px  rgb(0, 255, 255, 0), 0 0 0 0 rgb(0, 255, 255, 0)
+      }
+      80%{
+        box-shadow: 0 0 0 50px  rgb(0, 255, 255, 0), 0 0 0 30px  rgb(0, 255, 255, 0)
+      }
+      100%{
+        box-shadow: 0 0 0 0 rgb(0, 255, 255, 0), 0 0 0 30px  rgb(0, 255, 255, 0)
+      }
+}
+
+.add-todo-icon{
+    margin-left: 20px;
+    background: blue;
+    border-radius: 20px;
+   margin-top: 10px;
+    color: rgb(0, 132, 255)
+}
+
+@media screen and (max-width: 992px) {
+  .todo-app{
+    max-width: 495px;
+    height: 750px;
+  } 
+
+  .add-icon{
+
+    left: 400px;
+      bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .todo-app{
+    max-width: 680px;
+    height: 930px;
+  } 
+
+  .home-container{
+    width: 190%;
+    min-height: 190vh;
+    padding: 80px;
+  }
+
+  .add-icon{
+    left: 550px;
+      top: 150px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  .home-container{
+    width: 185%;
+    min-height: 185vh; 
+       padding: 0;
+    padding-top: 200px;
+  }
+
+  .todo-app{
+    max-width: 680px;
+    height: 930px;
+  } 
+
+  .add-icon{
+    left: 530px;
+      bottom: 0px;
+  }
+
+}

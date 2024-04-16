@@ -1,0 +1,88 @@
+.tabs-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.tab-header{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.tab-header{  
+    position: relative;
+    background-color:rgb(203 226 232);
+    margin: 20px 0;
+    align-items: center;
+    padding: 20px;
+    overflow-x: auto ;
+}
+
+.tab-header::-webkit-scrollbar{
+    display: none;
+}
+
+.tab-header button{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+    min-width: 120px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.tab-header button:hover{
+    background-color: rgb(83, 209, 252);
+    color:rgb(46, 26, 26);
+}
+
+.tab-header .active-tab{
+    background-color: rgb(83, 209, 252);
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    
+    .tab-header button{
+        min-width: 92px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    
+    .tab-header button{
+        min-width: 92px;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    
+    .tab-header button{
+        min-width: 140px;
+        font-size: 20px;
+    }
+
+    .tab-header{
+        padding: 25px;
+    }    
+  }
+
+  @media screen and (max-width: 350px) {
+    
+    .tab-header button{
+        min-width: 125px;
+        font-size: 20px;
+    }
+
+    .tab-header{
+        padding: 25px;
+    }
+  }
+

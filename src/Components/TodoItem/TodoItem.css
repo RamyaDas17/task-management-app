@@ -1,0 +1,30 @@
+.todoItem{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color:rgb(245, 249, 250);
+    margin: 6px 4px;
+    height: 40px;
+    border-radius: 12px;
+    flex-direction: row;
+    overflow-x: auto;
+  
+}
+
+.todoItem::-webkit-scrollbar{
+    display: none;
+}
+.todoItem p{
+   width: 10px;
+    flex: 1;
+}
+
+.todoItem--done{
+    text-decoration: line-through;
+}
+
+.delete-btn{
+ 
+    color: #555;
+}
+
