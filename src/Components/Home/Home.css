@@ -82,13 +82,14 @@
 
 @media screen and (max-width: 576px) {
   .todo-app{
-    max-width: 680px;
+    min-width: 677px;
     height: 930px;
+    margin-top: 230px;
   } 
 
   .home-container{
-    width: 190%;
-    min-height: 190vh;
+    width: 225%;
+    min-height: 216vh;
     padding: 80px;
   }
 
@@ -101,8 +102,8 @@
 @media screen and (max-width: 350px) {
 
   .home-container{
-    width: 185%;
-    min-height: 185vh; 
+    width: 280%;
+    min-height: 270vh;
        padding: 0;
     padding-top: 200px;
   }

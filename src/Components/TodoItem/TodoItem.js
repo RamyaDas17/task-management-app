@@ -4,7 +4,7 @@ import Checkbox from '@mui/material/Checkbox';
 import { useDispatch } from 'react-redux';
 import { setCheck,deleteTodo } from '../../Features/todoSlice';
 import DeleteIcon from '@mui/icons-material/Delete';
-import sound from '../../assets/pop_sound.mp3'
+import sound from '../../assets/task_completed_sound.mp3'
 
 function TodoItem({name, done, id }) {
 
